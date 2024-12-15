@@ -1,0 +1,25 @@
+/* Style the navbar */
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+    /* display: flex; */
+  }
+  
+  .navbar-container {
+    margin: 45px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ul{
+      display: flex;
+  }
+  
+  li{
+      list-style-type: none;
+      float: left;
+      padding: 16px;
+  }
+  
