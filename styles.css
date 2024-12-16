@@ -1,4 +1,13 @@
-/* Style the navbar */
+body{
+  margin: 0;
+  background-color: #E7E8D1;
+}
+
+/* .main{  
+  margin-left: 20%;
+  margin-right: 20%;
+} */
+
 #navbar {
     position: sticky;
     top: 0;
@@ -15,12 +24,9 @@
   }
 
   .about{
-    /* display: flex; */
-    background-color: #E7E8D1;
-
-    padding: 45px;
+    margin: 0 20%;
     justify-content: flex-start;
-    /* align-items: center; */
+    height: 40vh;
   }
 
   .about-title{
@@ -37,6 +43,16 @@
   .about-desc{
     display: flex;
     align-items: center;
+  }
+
+  .projects{
+    background-color: #B85042;
+    height: 40vh;
+  }
+
+  .languages{
+    background-color: #A7BEAE;
+    height: 40vh;
   }
   
   ul{
