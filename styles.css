@@ -3,14 +3,33 @@
     position: sticky;
     top: 0;
     overflow: hidden;
-    /* background-color: #333; */
+    background-color: #E7E8D1;
     /* display: flex; */
   }
   
   .navbar-container {
-    margin: 45px;
+    margin: 30px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .about{
+    /* display: flex; */
+    background-color: #E7E8D1;
+
+    padding: 45px;
+    justify-content: flex-start;
+    /* align-items: center; */
+  }
+
+  .about-title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-container{
+    margin:0 90px;
   }
   
   ul{
