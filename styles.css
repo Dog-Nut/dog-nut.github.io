@@ -44,9 +44,10 @@ body{
   .about-desc{
     display: flex;
     align-items: center;
+    overflow-wrap: break-word;
   }
 
-  .projects{
+  /* .projects{
     background-color: #B85042;
     height: 40vh;
   }
@@ -62,7 +63,7 @@ body{
 
   .languages-container{
     margin: 0 20%;
-  }
+  } */
   
   ul{
       display: flex;
