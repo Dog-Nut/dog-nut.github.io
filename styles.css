@@ -9,6 +9,7 @@ body{
 } */
 
 #navbar {
+    margin: 0 20%;
     position: sticky;
     top: 0;
     overflow: hidden;
@@ -50,9 +51,17 @@ body{
     height: 40vh;
   }
 
+  .projects-container{
+    margin: 0 20%;
+  }
+
   .languages{
     background-color: #A7BEAE;
     height: 40vh;
+  }
+
+  .languages-container{
+    margin: 0 20%;
   }
   
   ul{
