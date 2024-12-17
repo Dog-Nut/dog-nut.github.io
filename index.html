@@ -14,6 +14,14 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <title>Jonathans Personal Website</title>
+
+    <!-- Space Grotesk Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <script
@@ -22,43 +30,43 @@
       crossorigin="anonymous"
     ></script>
     <!-- <div class="main"> -->
-      <div id="navbar">
-        <div class="navbar-container">
-          Jonathan Ng
-          <ul class="navbar-list">
-            <li class="navbar-item">Home</li>
-            <li class="navbar-item">About</li>
-            <li class="navbar-item">Projects</li>
-          </ul>
-        </div>
+    <!-- Navbar -->
+    <div id="navbar">
+      <!-- Container for navbar -->
+      <div class="navbar-container">
+        Jonathan Ng
+        <ul class="navbar-list">
+          <li class="navbar-item">Home</li>
+          <li class="navbar-item">About</li>
+          <li class="navbar-item">Projects</li>
+        </ul>
       </div>
-      <div class="about"> 
+    </div>
+    <!-- Container for about me -->
+    <div class="container">
+      <div class="row">
         <span class="about-title">About Me</span>
-        <div class="about-container">
-          <div class="about-image">
-            <img src="image/profile.png" height="300" />
-          </div>
-          <div class="about-desc">
-            Hello! My name is Jonathan and I recently graduated from the
-            University of Wollongong. I am an optimistic person who is
-            self-motivated and enjoys problem-solving. I have a Bachelor of
-            Computer Science from my university and have recently finished a 6
-            month internship mainly focusing on front-end development. I'm willing
-            to try new things and hope to be given new opportunities in my career
-            to learn new things
-          </div>
+        <div class="col 6 about-profile">
+          <img src="image/profile.png" />
+        </div>
+        <div class="col 6 about-desc">
+          Hello! My name is Jonathan and I recently graduated from the
+          University of Wollongong. I am an optimistic person who is
+          self-motivated and enjoys problem-solving. I have a Bachelor of
+          Computer Science from my university and have recently finished a 6
+          month internship mainly focusing on front-end development. I'm willing
+          to try new things and hope to be given new opportunities in my career
+          to learn new things
         </div>
       </div>
-      <div class="projects">
-        <div class="projects-container">
-          testestetststs
-        </div>
-      </div>
-      <div class="languages">
-        <div class="languages-container"></div>
-      </div>
-    <!-- </div> -->
+    </div>
 
-    
+    <div class="projects">
+      <div class="projects-container">testestetststs</div>
+    </div>
+    <div class="languages">
+      <div class="languages-container"></div>
+    </div>
+    <!-- </div> -->
   </body>
 </html>

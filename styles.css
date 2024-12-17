@@ -1,6 +1,10 @@
-body{
+body {
   margin: 0;
-  background-color: #E7E8D1;
+  background-color: #e7e8d1;
+}
+
+.container {
+  padding: 45px;
 }
 
 /* .main{  
@@ -9,54 +13,59 @@ body{
 } */
 
 #navbar {
-    margin: 0 20%;
-    position: sticky;
-    top: 0;
-    overflow: hidden;
-    background-color: #E7E8D1;
-    /* display: flex; */
-  }
-  
-  .navbar-container {
-    margin: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  /* margin: 0 20%; */
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #e7e8d1;
+  /* display: flex; */
+}
 
-  .about{
-    margin: 0 20%;
-    justify-content: flex-start;
-    height: 40vh;
-  }
+.navbar-container {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .about-title{
-    display: flex;
-    justify-content: center;
-  }
+.about {
+  margin: 0 20%;
+  justify-content: flex-start;
+  height: 40vh;
+}
 
-  .about-container{
-    /* margin:0 90px; */
-    display: flex;
-    gap:45px;
-  }
+.about-title {
+  display: flex;
+  justify-content: center;
+}
 
-  .about-desc{
-    display: flex;
-    align-items: center;
-    overflow-wrap: break-word;
-  }
+.about-profile {
+  display: flex;
+  justify-content: center;
+}
 
-  /* .projects{
-    background-color: #B85042;
-    height: 40vh;
-  }
+.about-container {
+  /* margin:0 90px; */
+  display: flex;
+  gap: 45px;
+}
 
-  .projects-container{
-    margin: 0 20%;
-  }
+.about-desc {
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+}
 
-  .languages{
+.projects {
+  background-color: #b85042;
+  height: 40vh;
+}
+
+.projects-container {
+  margin: 0 20%;
+}
+
+/* .languages{
     background-color: #A7BEAE;
     height: 40vh;
   }
@@ -64,14 +73,24 @@ body{
   .languages-container{
     margin: 0 20%;
   } */
-  
-  ul{
-      display: flex;
+
+img {
+  /* width: 75%; */
+  height: 300px;
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    height: 450px;
   }
-  
-  li{
-      list-style-type: none;
-      float: left;
-      padding: 16px;
-  }
-  
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  float: left;
+  padding: 16px;
+}
