@@ -4,18 +4,11 @@ body {
   font-family: "Space Grotesk", sans-serif;
 }
 
-/* .main{  
-  margin-left: 20%;
-  margin-right: 20%;
-} */
-
 #navbar {
-  /* margin: 0 20%; */
   position: sticky;
   top: 0;
   overflow: hidden;
   background-color: #A7BEAE;
-  /* display: flex; */
 }
 
 .navbar-container {
@@ -35,11 +28,11 @@ body {
 }
 
 .about-profile {
-  display: flex;
-  justify-content: center;
+  width: 300px;
 }
 
 .about-desc {
+  min-width: 50%;
   display: flex;
   align-items: center;
   word-wrap: break-word;
@@ -65,24 +58,9 @@ body {
   height: auto;
 }
 
-/* .languages{
-    background-color: #A7BEAE;
-    height: 40vh;
-  }
-
-  .languages-container{
-    margin: 0 20%;
-  } */
-
 img {
-  /* width: 75%; */
-  height: 300px;
-}
-
-@media screen and (max-width: 800px) {
-  img {
-    height: 450px;
-  }
+  width: 100%;
+  height: auto;
 }
 
 ul {
