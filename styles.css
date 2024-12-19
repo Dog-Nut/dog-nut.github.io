@@ -12,13 +12,15 @@ body {
 }
 
 .navbar-container {
-  margin: 30px;
+  margin: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.about {
+.about,
+.skills,
+.languages {
   padding: 45px;
 }
 
@@ -36,10 +38,6 @@ body {
   display: flex;
   align-items: center;
   word-wrap: break-word;
-}
-
-.skills {
-  padding: 45px;
 }
 
 .skills-title {
