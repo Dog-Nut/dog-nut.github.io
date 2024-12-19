@@ -9,6 +9,7 @@ body {
   top: 0;
   overflow: hidden;
   background-color: #A7BEAE;
+  z-index: 1000;
 }
 
 .navbar-container {
@@ -20,7 +21,7 @@ body {
 
 .about,
 .skills,
-.languages {
+.projects {
   padding: 45px;
 }
 
@@ -54,6 +55,10 @@ body {
 .skills-logo{
   width: 100%;
   height: auto;
+}
+
+.card-size{
+  width:80%
 }
 
 img {
